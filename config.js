@@ -51,7 +51,7 @@ module.exports = {
   REJECT_CALL: toBool(process.env.REJECT_CALL) || 'false'.trim(),
   VPS: toBool(process.env.VPS) || 'false'.trim(),
   AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'true').trim(),
-  SEND_READ: toBool(process.env.SEND_READ) || 'false'.trim(),
+  SEND_READ: toBool(process.env.SEND_READ),
   KOYEB: toBool(process.env.KOYEB),
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
   KOYEB_API: (process.env.KOYEB_API || '').trim(),
