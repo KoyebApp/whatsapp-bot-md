@@ -39,7 +39,7 @@ module.exports = {
   BAILEYS_LOG_LVL: process.env.BAILEYS_LOG_LVL || 'silent',
   LANG: (process.env.LANGUAG || 'en').toLowerCase(),
   WARN_LIMIT: process.env.WARN_LIMIT || 3,
-  FORCE_LOGOUT: toBool(process.env.FORCE_LOGOUT) || 'false'.trim(),
+  FORCE_LOGOUT: toBool(process.env.FORCE_LOGOUT),
   BRAINSHOP: process.env.BRAINSHOP || '159501,6pq8dPiYt7PdqHz3',
   DIS_BOT: process.env.DISABLE_BOT || 'null',
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Antilink Detected &mention kicked_',
